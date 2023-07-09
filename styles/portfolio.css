@@ -3,13 +3,14 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+
 .text-primary {
     color: #FD6E0A;
 }
 
 .btn-primary {
     border-radius: 5px;
-    background: #FD6E0A;
+    background-color: #FD6E0A;
     border: 0;
     color: white;
     font-size: 20px;
@@ -17,11 +18,19 @@ body {
     padding: 18px 35px;
 }
 
+.btn-contact {
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    text-align: center;
+    background-color: #FFF8F3;
+}
+
 /* nav related styles */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 
 .portfolio-title {
@@ -43,4 +52,18 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* Header related styles */
+.header-section {
+    background-color: #FFF8F3;
+}
+
+.banner-section {
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner-section .profile-pic{
+    width: 500px;
 }
