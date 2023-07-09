@@ -139,3 +139,11 @@ main {
 .about-info {
     text-align: center;
 }
+
+/* What I do section styles */
+#what-I-do-description{
+    padding: 30px 160px 50px 157px;
+}
+.skills-container{
+    display: flex;
+}
